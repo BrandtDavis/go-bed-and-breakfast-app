@@ -1,9 +1,9 @@
 package main
 
 import (
+	"bookings/pkg/config"
+	"bookings/pkg/handlers"
 	"net/http"
-	"web-app-basics/pkg/config"
-	"web-app-basics/pkg/handlers"
 
 	"github.com/go-chi/chi/middleware"
 	"github.com/go-chi/chi/v5"

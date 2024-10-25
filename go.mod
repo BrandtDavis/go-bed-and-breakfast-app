@@ -1,4 +1,4 @@
-module web-app-basics
+module bookings
 
 go 1.22.4
 

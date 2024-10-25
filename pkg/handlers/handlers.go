@@ -1,10 +1,10 @@
 package handlers
 
 import (
+	"bookings/pkg/config"
+	"bookings/pkg/models"
+	"bookings/pkg/render"
 	"net/http"
-	"web-app-basics/pkg/config"
-	"web-app-basics/pkg/models"
-	"web-app-basics/pkg/render"
 )
 
 // Repo is the
