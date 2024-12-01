@@ -114,7 +114,7 @@ func (m *postgresDBRepo) SearchAvailabilityForAllRooms(start, end time.Time) ([]
 				  select 
 				      room_id
 				  from 
-				      rooms r
+				      room_restrictions rr
 				  where 
 				  $1 < rr.end_date and $2 > rr.start_date
 				);`
